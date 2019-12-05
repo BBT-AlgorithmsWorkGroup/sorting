@@ -1,0 +1,20 @@
+1-) Girilen sayılar ile bir dizi oluşturarak bu dizini küçükten büyüğe sıralanmasıdır.
+
+Girdi olarak, ilk satırda bir N sayısı girilecektir. Bu N sayısı, sonrasında kaç adet sayının girileceğini belirtecektir.
+Sonrasında gelen her input diziye eklemeniz gereken sayılardır.
+
+Kısıtlamalar;
+1<=N<=1000
+
+Örnek İnput;
+
+5
+10
+14
+12
+56
+24
+
+Output;
+
+10-12-14-24-56
