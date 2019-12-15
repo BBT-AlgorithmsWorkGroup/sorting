@@ -1,0 +1,14 @@
+def sorting(x):
+  newList = []
+  for a in range(len(x)):
+    newList.append(min(x))
+    x.pop(x.index(min(x)))
+  return newList
+
+n = int(input("How many numbers you want: "))
+nums = []
+for i in range(n):
+    y = int(input("Give your number:  "))
+    nums.append(y)
+
+print(sorting(nums))
