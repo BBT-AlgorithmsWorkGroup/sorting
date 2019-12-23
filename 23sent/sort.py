@@ -15,7 +15,7 @@ def mysort(lm):
         newlist.append(m)
         lm.remove(m)
     return newlist
-
+#insert
 def in_sort(n, nlist):
     inds = 0
     while inds < len(nlist) and n > nlist[inds]:
